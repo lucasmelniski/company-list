@@ -1,0 +1,146 @@
+.user-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-grow: 1;
+  padding: 50px 150px;
+  background-color: #ececec;
+  align-items: center;
+}
+
+.list-description {
+  font-weight: 500;
+  margin-bottom: 33px;
+  font-size: 16px;
+}
+
+.searching {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: #fafafa;
+  height: 50px;
+  padding: 5px 15px;
+  margin-bottom: 33px;
+}
+.search-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.input-name {
+  display: flex;
+  color: #a19d9d;
+  flex-direction: column;
+  flex: 1;
+  font-size: 24px;
+  padding: 0 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.input-name:focus {
+  outline: none;
+}
+
+.searching-icons {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+}
+.search-user-icon-column,
+.gear-icon-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+.search-user-icon,
+.gear-icon {
+  height: 100%;
+  width: 100%;
+  fill: #969191;
+}
+
+.th-name {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+th,
+tr {
+  text-align: center;
+}
+
+.th-name-icon {
+  height: 100%;
+  position: absolute;
+  right: 10px;
+}
+
+.az-icon {
+  height: 100%;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 128px 100px 50px 100px;
+}
+
+.list-user-photo {
+  position: absolute;
+  top: -64px;
+}
+
+.list-close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.contact-list,
+.contact-description {
+  margin-top: 15px;
+}
+li {
+  text-align: left;
+}
+
+.pagination-navlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-color: #b3b3b3;
+  border: 1px solid #8a8a8a;
+}
+
+.pagination-navlink:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #cacaca;
+}
+
+.selected-pagination-navlink,
+.pagination-navlink:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #8a8a8a;
+}
